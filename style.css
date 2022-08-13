@@ -1,0 +1,272 @@
+/*CSS para cabecalho*/
+header{
+	background: #F4B183;
+	font-family: 'Shalimar', cursive;
+	font-weight: bold;
+	font-size: 45px;
+	width: 100%;
+}
+.cabecalho-logo{
+	display: inline-block;
+	width: 25%;
+
+}
+.cabecalho-logo h1{
+	padding: 0 0 0 5px;
+
+}
+nav {
+	position: absolute;
+	top: 124px;
+	right: 0;
+	margin: 5px 15px 5px 5px;
+	font-weight: bold;
+}
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+	text-transform: uppercase;
+	font-size: 25px;
+}
+nav a{
+	text-decoration: none;
+	color: #000000;
+	transition: .5s all;
+
+}
+nav a:hover{
+	color: #e77022;
+	font-size: 28px;
+}
+/*Principal*/
+main{
+	width: 940px;
+	margin: 0 auto;
+}
+
+
+.principal-conteudo{
+	font-family: Arial,sans-serif, cursive;
+	font-size: 1em;
+	width: 40%;
+	display: inline-block;
+	float: left;
+}
+.principal-conteudo p{
+	padding: 15px 0;
+}
+.principal-inside {
+	width: 60%;
+	display: inline;
+}
+/*Pagina de cursos*/
+
+.cursos li{
+	display: inline-block;
+	width: 33%;
+}
+.cursos-img{
+	width: 80%;
+	border-radius: 45px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.cursos-img:hover{
+	opacity: 0.7;
+}
+.cursos h2{
+	font-family: Arial,sans-serif, cursive;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+}
+.cursos-descricao{
+	font-size: 15px;
+	text-align: center;
+	padding: 3% 1%;
+}
+.cursos-valor{
+	font-family: Arial,sans-serif, cursive;
+	color: #c11d1d;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+}
+.cursos li:hover .cursos-valor{
+	font-family: Arial,sans-serif, cursive;
+	color: #ed7a2d;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	transition: 1s all;
+}
+.cursos li:hover h2{
+	text-decoration: underline;
+	transition: 1s all;
+}
+
+/*Pagina de cadastro*/
+
+form{
+	width: 840px;
+	margin-bottom: 5%;
+
+}
+form label, form legend{
+	display: block; /*para quebrar a linha de label*/
+	font-size: 15px;
+	margin: 0 0 10px;
+}	
+h2{
+	font-family: Arial,sans-serif, cursive;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 1%;
+}
+
+.personal-info, .personal-adress{
+	font-family: Arial,sans-serif, cursive;
+	margin: 15px 0 15px 0;
+}
+.personal-info p, .personal-adress p{
+	font-family: Arial,sans-serif, cursive;
+	font-family: 20px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.input-padrao{
+	display: block;
+	width: 30%;
+}
+textarea{
+	resize: none; 
+	margin-bottom: 20px; 
+} 
+.enviar{
+	width: 15%;
+	padding: 15px 15px;
+
+	background: #F4B183;
+	color: #f1721e;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 50px;
+	transition: 0.8s all;
+	cursor: pointer;
+}
+.enviar:hover{
+	background: #f27623;
+	color: #F4B183;
+	text-decoration: underline;
+	transform: scale(1.1);
+}
+
+/*Pagina contato*/
+.info-contato{
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+}
+.info-contato div{
+	padding-bottom: 3%;
+}
+.info-local{
+	width: 30%;
+	display: inline-block;
+	padding-left: 20%;
+}
+.info-local div{
+	width: 30%;
+	display: inline-block;
+	padding-top: 3%;
+}
+.newsletter{
+	display: block;
+}
+.newsletter p{
+	padding: 5% 0 5% 0;
+}
+.avaliar label{
+	display: block;
+	padding-bottom: 1%;
+}
+.enviar-avaliar{
+	width: 25%;
+	padding: 15px 15px;
+	background: #F4B183;
+	color: #f0985d;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 50px;
+	transition: 0.8s all;
+	cursor: pointer;
+}
+.enviar-avaliar:hover{
+	background: #F4b183;
+	color: #f0985d;
+	text-decoration: underline;
+	transform: scale(1.05);
+}
+.contato{
+	font-family: Arial,sans-serif, cursive;
+	font-family: 20px;
+	margin-bottom: 5px;
+}
+.titulo-secundario {
+	font-size: 15px;
+	padding:2% 0 2% 0;
+	font-family: Arial,sans-serif, cursive;
+	font-family: 20px;
+	font-weight: bold;
+}
+.contato label{
+	display: block;
+}
+table{
+	margin: 20px 0 40px 0px;
+}
+
+thead{
+	border: 1px solid #000000;
+	background: #F4b183;
+	color:white;
+	font-weight: bold;
+
+}
+
+td{
+	border: 1px solid #000000;
+	padding: 8px 15px;
+}
+/*Rodape*/
+footer{
+	clear: left;
+	background: #e79661;
+	width: 100%;
+	text-align: center;
+}
+footer p{
+	text-align: left;
+}
+
+.social-media img{
+	width: 3%;
+	padding: 0 18px;
+	color: #F4B183;
+	transition: .5s all;
+}
+.social-media img:hover{
+	width: 3.5%;
+}
+@media screen and (max-width: 480){
+	header,body,main,section{
+		width: auto;
+	}
+	h1{
+		text-align: center;
+	}
+}
